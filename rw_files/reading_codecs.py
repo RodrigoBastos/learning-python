@@ -2,7 +2,6 @@
 
 # Encoders and Decoders
 import codecs
-
 # Open File by codecs
 # params: directory file, mode, encode
 # return object
@@ -15,4 +14,5 @@ print file
 
 # using readlines function to read all lines
 # return array
-print file.readlines()
+for line in file.readlines():
+    print line.encode("utf-8")
