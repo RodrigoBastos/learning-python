@@ -1,2 +1,2 @@
-Repositório de teste
+Exemplos de código em python
 =====
