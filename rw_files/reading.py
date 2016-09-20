@@ -11,8 +11,8 @@ print file
 
 # Using read function to read all lines
 # return string
-#print file.read()
+print file.read()
 
-# Using readline function to read all lines
+# Using readlines function to read all lines
 # return array
 print file.readlines()
